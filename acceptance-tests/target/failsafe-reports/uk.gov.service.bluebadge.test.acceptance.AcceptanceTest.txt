@@ -1,0 +1,84 @@
+-------------------------------------------------------------------------------
+Test set: uk.gov.service.bluebadge.test.acceptance.AcceptanceTest
+-------------------------------------------------------------------------------
+Tests run: 25, Failures: 0, Errors: 8, Skipped: 12, Time elapsed: 30.869 s <<< FAILURE! - in uk.gov.service.bluebadge.test.acceptance.AcceptanceTest
+And I type username "abc@dft.gov.uk" and password "test123"(Scenario: Verify valid Sign in)  Time elapsed: 0.004 s  <<< ERROR!
+java.lang.RuntimeException: Failed to find element matching 'By.id: emailAddress'
+Caused by: org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for uk.gov.service.bluebadge.test.acceptance.pages.PageHelper$$Lambda$180/1640458320@49798e84 (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'SampathMahavithanas-MacBook-Pro.local', ip: '10.241.70.27', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/dv/1w_shrr9373...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 1fa634ec488fdaf21295093063a357db
+
+Scenario: Verify valid Sign in  Time elapsed: 0.004 s  <<< ERROR!
+java.lang.RuntimeException: Failed to find element matching 'By.id: emailAddress'
+Caused by: org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for uk.gov.service.bluebadge.test.acceptance.pages.PageHelper$$Lambda$180/1640458320@49798e84 (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'SampathMahavithanas-MacBook-Pro.local', ip: '10.241.70.27', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/dv/1w_shrr9373...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 1fa634ec488fdaf21295093063a357db
+
+And I type username "example" and password "test123"(Scenario: Verify Sign in with an invalid email address)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.RuntimeException: Failed to find element matching 'By.id: emailAddress'
+Caused by: org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for uk.gov.service.bluebadge.test.acceptance.pages.PageHelper$$Lambda$180/1640458320@14e2e1c3 (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'SampathMahavithanas-MacBook-Pro.local', ip: '10.241.70.27', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/dv/1w_shrr9373...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 1d9813067f851611933e5d7b1f010c57
+
+Scenario: Verify Sign in with an invalid email address  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.RuntimeException: Failed to find element matching 'By.id: emailAddress'
+Caused by: org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for uk.gov.service.bluebadge.test.acceptance.pages.PageHelper$$Lambda$180/1640458320@14e2e1c3 (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'SampathMahavithanas-MacBook-Pro.local', ip: '10.241.70.27', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/dv/1w_shrr9373...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 1d9813067f851611933e5d7b1f010c57
+
+And I type username "example@gmail.com" and password ""(Scenario: Verify Sign in with an invalid password)  Time elapsed: 0 s  <<< ERROR!
+java.lang.RuntimeException: Failed to find element matching 'By.id: emailAddress'
+Caused by: org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for uk.gov.service.bluebadge.test.acceptance.pages.PageHelper$$Lambda$180/1640458320@4a6c18ad (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'SampathMahavithanas-MacBook-Pro.local', ip: '10.241.70.27', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/dv/1w_shrr9373...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: bcef6a1c3e964fb0b7ebee5bb47438bc
+
+Scenario: Verify Sign in with an invalid password  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.RuntimeException: Failed to find element matching 'By.id: emailAddress'
+Caused by: org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for uk.gov.service.bluebadge.test.acceptance.pages.PageHelper$$Lambda$180/1640458320@4a6c18ad (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'SampathMahavithanas-MacBook-Pro.local', ip: '10.241.70.27', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/dv/1w_shrr9373...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: bcef6a1c3e964fb0b7ebee5bb47438bc
+
+When I type username "abc@dft.gov.uk" and password "test123"(Scenario: Verify Sign out)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.RuntimeException: Failed to find element matching 'By.id: emailAddress'
+Caused by: org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for uk.gov.service.bluebadge.test.acceptance.pages.PageHelper$$Lambda$180/1640458320@16c8b7bd (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'SampathMahavithanas-MacBook-Pro.local', ip: '10.241.70.27', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/dv/1w_shrr9373...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: e2f410ec0d4dfee5c1d6af7fd98cdab0
+
+Scenario: Verify Sign out  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.RuntimeException: Failed to find element matching 'By.id: emailAddress'
+Caused by: org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for uk.gov.service.bluebadge.test.acceptance.pages.PageHelper$$Lambda$180/1640458320@16c8b7bd (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'SampathMahavithanas-MacBook-Pro.local', ip: '10.241.70.27', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/dv/1w_shrr9373...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: e2f410ec0d4dfee5c1d6af7fd98cdab0
+
