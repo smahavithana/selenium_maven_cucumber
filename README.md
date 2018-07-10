@@ -1,4 +1,4 @@
-# DFT BLUE BADGE BETA - LA-WEBAPP - Acceptance tests
+WEBAPP - Acceptance tests
 
 ### Acceptance tests
 
